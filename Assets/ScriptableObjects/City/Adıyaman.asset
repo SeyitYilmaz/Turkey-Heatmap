@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
+  m_Name: "Ad\u0131yaman"
+  m_EditorClassIdentifier: 
+  plateNo: 2
+  cityName: "Ad\u0131yaman"
+  heatValue: 0
+  populationValue: 0
+  cityPrefab: {fileID: 5511968932661564114, guid: ac23ac441a3308445a663d813cb0c626, type: 3}

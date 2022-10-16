@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 6973708820091576455}
   - component: {fileID: 8560730805037973216}
   - component: {fileID: 9198005284361597460}
-  m_Layer: 0
+  - component: {fileID: -236692954471651660}
+  - component: {fileID: -7248934697587816121}
+  m_Layer: 6
   m_Name: "\u0130stanbul"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9ddc754b84e0350469fdee32bd596dca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,3 +85,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-236692954471651660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848892313780573217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bbc3197f3bfee145a15f611f4b7d8e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &-7248934697587816121
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848892313780573217}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1630758857168180769, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}

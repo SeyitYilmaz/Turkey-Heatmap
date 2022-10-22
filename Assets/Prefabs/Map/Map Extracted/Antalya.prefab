@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1861317490627121165}
   - component: {fileID: 1111088416199407234}
   - component: {fileID: 3358598814029289095}
+  - component: {fileID: -4303856336599792958}
   m_Layer: 6
   m_Name: Antalya
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4517972790241532149, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &-4303856336599792958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4013896324951867120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2865447192327185661}
   - component: {fileID: -3337946366873832422}
   - component: {fileID: -7725014578324886228}
+  - component: {fileID: 8798018759881611213}
   m_Layer: 6
   m_Name: "Ad\u0131yaman"
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6478342331484281195, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &8798018759881611213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3560400471600721474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8188129875708514846}
   - component: {fileID: 1960029798142845459}
   - component: {fileID: 6837181207428972924}
+  - component: {fileID: -1050732685358113689}
   m_Layer: 6
   m_Name: Mersin
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -70992306398247873, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &-1050732685358113689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265583778602985992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

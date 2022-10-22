@@ -6,14 +6,20 @@ using UnityEngine;
 
 public class CityMouseController : MonoBehaviour
 {
+    City city;
+    void Start() 
+    {
+        city = transform.GetComponent<City>();    
+    }
     void OnMouseEnter()
     {
         transform.localPosition = new Vector3(transform.position.x,transform.position.y+0.2f,transform.position.z-0.05f);
-        
+        TooltipManager.instance.ShowTooltip(city.cityName);
     }
     private void OnMouseExit()
     {
        transform.localPosition = new Vector3(transform.position.x,transform.position.y-0.2f,transform.position.z+0.05f); 
+       TooltipManager.instance.HideTooltip();
     }
 
     private void OnMouseDown()

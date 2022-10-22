@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Amasya
   m_EditorClassIdentifier: 
   plateNo: 5
-  cityName: 
+  cityName: Amasya
   heatValue: 0
   populationValue: 0
   cityPrefab: {fileID: 3166702249961524745, guid: a01ba77e3937322468c28c63ac8345ca, type: 3}

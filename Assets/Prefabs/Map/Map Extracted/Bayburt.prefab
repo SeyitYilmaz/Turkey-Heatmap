@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8422831764175677859}
   - component: {fileID: 7533707943092386621}
   - component: {fileID: -8274583168978509884}
+  - component: {fileID: -9081882333124210368}
   m_Layer: 6
   m_Name: Bayburt
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7007119509719787756, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &-9081882333124210368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8519678767760901067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6041449511461693595}
   - component: {fileID: 7569995140134289473}
   - component: {fileID: -5618336089421275288}
+  - component: {fileID: 5902281710491679584}
   m_Layer: 6
   m_Name: "\u015Eanl\u0131urfa"
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6715926192680356091, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &5902281710491679584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2168578183797762874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

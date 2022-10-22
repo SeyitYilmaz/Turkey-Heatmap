@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7233664220879651204}
   - component: {fileID: -6855753889250244195}
   - component: {fileID: 1213388665297277692}
+  - component: {fileID: -4374633779792264156}
   m_Layer: 6
   m_Name: Kastamonu
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8207795103564231394, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &-4374633779792264156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8915743092656996733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

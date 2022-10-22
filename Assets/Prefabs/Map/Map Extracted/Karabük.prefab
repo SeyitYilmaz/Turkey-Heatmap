@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 529598529998396878}
   - component: {fileID: 7107048061260235647}
   - component: {fileID: -8586927695621656513}
+  - component: {fileID: 854948680856277308}
   m_Layer: 6
   m_Name: "Karab\xFCk"
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4014925460483601871, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &854948680856277308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4597679748211820451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

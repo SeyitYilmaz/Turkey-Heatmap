@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 396777708366695001}
   - component: {fileID: 569194182311833288}
   - component: {fileID: 5933559312858348952}
+  - component: {fileID: -4484647838959407279}
   m_Layer: 6
   m_Name: Giresun
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7639240212557261796, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &-4484647838959407279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4029556592707426187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

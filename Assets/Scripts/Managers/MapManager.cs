@@ -24,6 +24,7 @@ public class MapManager : MonoBehaviour
         {
             GameObject cityObject = Instantiate<GameObject>(city.cityPrefab.transform.gameObject);
             cityObject.transform.parent = gameObject.transform;
+            cityObject.GetComponent<City>().citySO = city;
             float colorChanger = Random.Range(0,1f);
             //cityObject.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
             cityObject.GetComponent<MeshRenderer>().material.color= new Color(2.0f * colorChanger, 2.0f * (1 - colorChanger), 0);

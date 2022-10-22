@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9064861365913770287}
   - component: {fileID: 4442929520006014816}
   - component: {fileID: -1235807203099606686}
+  - component: {fileID: -2494327040205535174}
   m_Layer: 6
   m_Name: "Diyarbak\u0131r"
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4381014808902251127, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &-2494327040205535174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7707451635678613594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5152722092461887751}
   - component: {fileID: -7714674857079783731}
   - component: {fileID: 742756003013058601}
+  - component: {fileID: 5405552292096858647}
   m_Layer: 6
   m_Name: "K\u0131r\u015Fehir"
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2550176336839870728, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &5405552292096858647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660818527854325909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8875971549547656676}
   - component: {fileID: 2992576799389131586}
   - component: {fileID: -2963123356910482498}
+  - component: {fileID: -7042210989263185178}
   m_Layer: 6
   m_Name: Bursa
   m_TagString: Untagged
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4791216183791032986, guid: d7e4b163c113cfe479cc88fa0832ce6b, type: 3}
+--- !u!114 &-7042210989263185178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218790430105558267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

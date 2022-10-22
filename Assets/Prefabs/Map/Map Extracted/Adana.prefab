@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7124463473994213672}
   - component: {fileID: -83231322432338129}
   - component: {fileID: 6026520850020796569}
+  - component: {fileID: -8852390617840435116}
   m_Layer: 6
   m_Name: Adana
   m_TagString: Untagged
@@ -109,5 +110,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3bbc3197f3bfee145a15f611f4b7d8e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8852390617840435116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6161110977221940102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55ddfc328a2de40883f3898974e795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

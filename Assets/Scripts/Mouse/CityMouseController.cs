@@ -14,12 +14,17 @@ public class CityMouseController : MonoBehaviour
     void OnMouseEnter()
     {
         transform.localPosition = new Vector3(transform.position.x,transform.position.y+0.2f,transform.position.z-0.05f);
+        CityManager.instance.SetCurrentOnEnter(transform);
         TooltipManager.instance.ShowTooltip(city.cityName);
     }
     private void OnMouseExit()
     {
-       transform.localPosition = new Vector3(transform.position.x,transform.position.y-0.2f,transform.position.z+0.05f); 
-       TooltipManager.instance.HideTooltip();
+        if(CityManager.instance.GetCurrentCity()!=transform && CityManager.instance.GetCurrentCity()!=null)
+        {
+            transform.localPosition = new Vector3(transform.position.x,transform.position.y-0.2f,transform.position.z+0.05f);
+        }
+        transform.localPosition = new Vector3(transform.position.x,transform.position.y-0.2f,transform.position.z+0.05f); 
+        TooltipManager.instance.HideTooltip();
     }
 
     private void OnMouseDown()

@@ -6,6 +6,7 @@ public class CityManager : MonoBehaviour
 {
     public static CityManager instance {get; private set;}
     Transform selectedCity;
+    Transform currentCity;
     public LayerMask cityLayerMask;
 
     void Awake() 
@@ -32,6 +33,20 @@ public class CityManager : MonoBehaviour
         }
         return null;
         
+    }
+
+    public void SetCurrentOnEnter(Transform current)
+    {
+        currentCity = current;
+    }
+
+    public Transform GetCurrentCity()
+    {
+        if(this.currentCity != null)
+        {
+            return this.currentCity;
+        }
+        return null;
     }
     
 }

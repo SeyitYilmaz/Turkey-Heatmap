@@ -6,7 +6,7 @@ public class CityManager : MonoBehaviour
 {
     public static CityManager instance {get; private set;}
     Transform selectedCity;
-    [SerializeField]LayerMask cityLayerMask;
+    public LayerMask cityLayerMask;
 
     void Awake() 
     {
@@ -26,7 +26,12 @@ public class CityManager : MonoBehaviour
 
     public Transform GetSelectedCity()
     {
-        return this.selectedCity;
+        if(this.selectedCity!=null)
+        {
+            return this.selectedCity;
+        }
+        return null;
+        
     }
     
 }

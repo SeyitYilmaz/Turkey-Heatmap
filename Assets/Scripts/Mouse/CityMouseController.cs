@@ -31,6 +31,7 @@ public class CityMouseController : MonoBehaviour
     {
         CityManager.instance.SetSelectedCity(transform);
         CameraManager.instance.SelectCamera(1);
+        UIManager.instance.SelectCanvas(1);
     }
 
 }

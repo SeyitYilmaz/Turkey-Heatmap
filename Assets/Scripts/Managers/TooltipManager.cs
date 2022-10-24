@@ -20,7 +20,7 @@ public class TooltipManager : MonoBehaviour
     
     void Start() 
     {
-        gameObject.SetActive(true);
+        gameObject.SetActive(false);
     }
 
     void Update()

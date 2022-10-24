@@ -13,7 +13,12 @@ public class CityMouseController : MonoBehaviour
     }
     void OnMouseEnter()
     {
-        transform.localPosition = new Vector3(transform.position.x,transform.position.y+0.2f,transform.position.z-0.05f);
+        if (CityManager.instance.GetCurrentCity()!=null)
+        {
+            CityManager.instance.LowerCity(CityManager.instance.GetCurrentCity());
+        }
+        CityManager.instance.LiftUpCity(transform);
+        //transform.localPosition = new Vector3(transform.position.x,transform.position.y+0.2f,transform.position.z-0.05f);
         CityManager.instance.SetCurrentOnEnter(transform);
         TooltipManager.instance.ShowTooltip(city.cityName);
     }
@@ -21,9 +26,10 @@ public class CityMouseController : MonoBehaviour
     {
         if(CityManager.instance.GetCurrentCity()!=transform && CityManager.instance.GetCurrentCity()!=null)
         {
-            transform.localPosition = new Vector3(transform.position.x,transform.position.y-0.2f,transform.position.z+0.05f);
+            CityManager.instance.LowerCity(transform);
+            //transform.localPosition = new Vector3(transform.position.x,transform.position.y-0.2f,transform.position.z+0.05f);
         }
-        transform.localPosition = new Vector3(transform.position.x,transform.position.y-0.2f,transform.position.z+0.05f); 
+        //transform.localPosition = new Vector3(transform.position.x,transform.position.y-0.2f,transform.position.z+0.05f); 
         TooltipManager.instance.HideTooltip();
     }
 

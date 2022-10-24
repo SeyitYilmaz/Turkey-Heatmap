@@ -48,5 +48,15 @@ public class CityManager : MonoBehaviour
         }
         return null;
     }
+
+    public void LiftUpCity(Transform city)
+    {
+        city.localPosition = new Vector3(city.position.x,city.position.y+0.2f,city.position.z-0.05f);
+    }
+
+    public void LowerCity(Transform city)
+    {
+        city.localPosition = new Vector3(city.position.x,city.position.y-0.2f,city.position.z+0.05f);
+    }
     
 }

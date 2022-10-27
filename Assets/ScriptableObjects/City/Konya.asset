@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Konya
   m_EditorClassIdentifier: 
-  plateNo: 42
-  cityName: Konya
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 42
+    cityName: KONYA
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 8620504328412480674, guid: 985500bfd5661a84293d18db47ca8014, type: 3}

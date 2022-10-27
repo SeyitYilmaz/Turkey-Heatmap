@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Mersin
   m_EditorClassIdentifier: 
-  plateNo: 33
-  cityName: Mersin
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: MERSIN
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 4002376518403797474, guid: 397e80a14b2c4a648a8004651631ef40, type: 3}

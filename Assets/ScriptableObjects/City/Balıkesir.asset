@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "Bal\u0131kesir"
   m_EditorClassIdentifier: 
-  plateNo: 10
-  cityName: "Bal\u0131kesir"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: BALIKESIR
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 1265169068370351428, guid: 726275544fd6cf04581a32e052aba9fc, type: 3}

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "Ni\u011Fde"
   m_EditorClassIdentifier: 
-  plateNo: 51
-  cityName: "Ni\u011Fde"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: NIGDE
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 7220053076852450355, guid: 38f21c5e9a68ba94c880089ca4df2211, type: 3}

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Ordu
   m_EditorClassIdentifier: 
-  plateNo: 52
-  cityName: Ordu
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 52
+    cityName: ORDU
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 3696139047384291733, guid: bd04aca6d99604d4b9fb11b00ef5ae1c, type: 3}

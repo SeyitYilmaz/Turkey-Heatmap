@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "\xC7anakkale"
   m_EditorClassIdentifier: 
-  plateNo: 17
-  cityName: "\xC7anakkale"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: CANAKKALE
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 6179762300320284629, guid: d0d39534f23ef8c4a8538f9d301e68d2, type: 3}

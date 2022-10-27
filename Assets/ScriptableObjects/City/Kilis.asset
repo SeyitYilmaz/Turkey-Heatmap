@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Kilis
   m_EditorClassIdentifier: 
-  plateNo: 79
-  cityName: Kilis
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: KILIS
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 6950869713700316909, guid: 9e9fd70f7cb210446a12419d980fd9ea, type: 3}

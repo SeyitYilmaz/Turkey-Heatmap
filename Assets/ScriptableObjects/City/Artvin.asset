@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Artvin
   m_EditorClassIdentifier: 
-  plateNo: 8
-  cityName: Artvin
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: ARTVIN
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 2229991246179124965, guid: 7447a43f72b81b041b068ccab3d5f1a5, type: 3}

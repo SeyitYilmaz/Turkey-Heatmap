@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "G\xFCm\xFC\u015Fhane"
   m_EditorClassIdentifier: 
-  plateNo: 29
-  cityName: "G\xFCm\xFC\u015Fhane"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: GUMUSHANE
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 3980905478833727361, guid: b3dedcc263071f047a37a9d2e1512e62, type: 3}

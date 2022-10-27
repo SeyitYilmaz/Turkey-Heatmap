@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "K\xFCtahya"
   m_EditorClassIdentifier: 
-  plateNo: 43
-  cityName: "K\xFCtahya"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: KUTAHYA
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 6459173666038476337, guid: 42ab5ac99abd5fa4096b9e9d5144905e, type: 3}

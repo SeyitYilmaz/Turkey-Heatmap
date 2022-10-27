@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Samsun
   m_EditorClassIdentifier: 
-  plateNo: 55
-  cityName: Samsun
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 55
+    cityName: SAMSUN
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 7459304419431726957, guid: 75be572f0c51d734b9d6939717e2a3b8, type: 3}

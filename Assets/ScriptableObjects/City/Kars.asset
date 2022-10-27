@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Kars
   m_EditorClassIdentifier: 
-  plateNo: 36
-  cityName: Kars
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 36
+    cityName: KARS
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 7254417290427386050, guid: 2089e126190306e40b3542ec4ebd7803, type: 3}

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Kayseri
   m_EditorClassIdentifier: 
-  plateNo: 38
-  cityName: Kayseri
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: KAYSERI
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 7301829998847443442, guid: 7766c0bf92b98dc429f098305657ceff, type: 3}

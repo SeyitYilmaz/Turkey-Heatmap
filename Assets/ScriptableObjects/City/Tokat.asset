@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Tokat
   m_EditorClassIdentifier: 
-  plateNo: 60
-  cityName: Tokat
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 60
+    cityName: TOKAT
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 7230371159378260561, guid: 5c6e3b13bb4b4ab46a1fe5ffe22e87a4, type: 3}

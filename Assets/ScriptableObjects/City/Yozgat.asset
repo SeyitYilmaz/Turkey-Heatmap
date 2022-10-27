@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Yozgat
   m_EditorClassIdentifier: 
-  plateNo: 66
-  cityName: Yozgat
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 66
+    cityName: YOZGAT
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 8279988447151129515, guid: 2ba3a6ee512fdf948981afed0ea38c7a, type: 3}

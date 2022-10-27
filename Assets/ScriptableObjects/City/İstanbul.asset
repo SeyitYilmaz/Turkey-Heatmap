@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "\u0130stanbul"
   m_EditorClassIdentifier: 
-  plateNo: 34
-  cityName: "\u0130stanbul"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: ISTANBUL
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 6973708820091576455, guid: 539ed6a917f39154a9b2dd59ed7d8262, type: 3}

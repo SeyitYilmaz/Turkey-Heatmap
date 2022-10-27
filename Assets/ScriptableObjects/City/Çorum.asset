@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "\xC7orum"
   m_EditorClassIdentifier: 
-  plateNo: 19
-  cityName: "\xC7orum"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: CORUM
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 7519934618144817919, guid: c90c18b909e06ac4b84087a62625ac6d, type: 3}

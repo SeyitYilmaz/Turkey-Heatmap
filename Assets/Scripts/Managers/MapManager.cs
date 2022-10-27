@@ -23,6 +23,12 @@ public class MapManager : MonoBehaviour
         foreach (var city in cityTypeList.cityList)
         {
             GameObject cityObject = Instantiate<GameObject>(city.cityPrefab.transform.gameObject);
+            StartCoroutine(DatabaseManager.instance.Download(city.cityData.cityName, result => {
+                Debug.Log(result);
+                city.cityData.heatValue = result.heatValue;
+                city.cityData.populationValue = result.populationValue;
+                city.cityData.plateNo = result.plateNo;
+            }));
             cityObject.transform.parent = gameObject.transform;
             cityObject.GetComponent<City>().citySO = city;
             float colorChanger = Random.Range(0,1f);

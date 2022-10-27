@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Van
   m_EditorClassIdentifier: 
-  plateNo: 65
-  cityName: Van
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 65
+    cityName: VAN
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 4886677436685271197, guid: a358727961e6f104784f215ead37b394, type: 3}

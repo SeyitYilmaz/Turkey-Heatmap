@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Aksaray
   m_EditorClassIdentifier: 
-  plateNo: 68
-  cityName: Aksaray
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 4
+    cityName: AKSARAY
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 2610159352829853757, guid: 56175a5fd3186c14dafc346e9bbca2ae, type: 3}

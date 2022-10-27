@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Bayburt
   m_EditorClassIdentifier: 
-  plateNo: 69
-  cityName: Bayburt
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 69
+    cityName: BAYBURT
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 7388476895005158160, guid: d189b23436320bd42beb34e91e1251ec, type: 3}

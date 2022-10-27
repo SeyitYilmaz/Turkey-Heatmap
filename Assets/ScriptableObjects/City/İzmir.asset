@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "\u0130zmir"
   m_EditorClassIdentifier: 
-  plateNo: 35
-  cityName: "\u0130zmir"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: IZMIR
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 646728226543207618, guid: 9287d8dbd80bbec4997c949022abc08f, type: 3}

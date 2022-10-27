@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Manisa
   m_EditorClassIdentifier: 
-  plateNo: 45
-  cityName: Manisa
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: MANISA
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 3466663578876116753, guid: 2a6771d10a5783045a8277422284f615, type: 3}

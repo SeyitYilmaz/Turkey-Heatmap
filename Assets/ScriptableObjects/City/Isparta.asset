@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Isparta
   m_EditorClassIdentifier: 
-  plateNo: 32
-  cityName: Isparta
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 32
+    cityName: ISPARTA
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 1027447795370164186, guid: f9406a224a94464418db2524856298d2, type: 3}

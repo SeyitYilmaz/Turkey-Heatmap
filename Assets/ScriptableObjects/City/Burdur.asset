@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Burdur
   m_EditorClassIdentifier: 
-  plateNo: 15
-  cityName: Burdur
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 15
+    cityName: BURDUR
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 3473111571832605994, guid: 7c1731ca773e46f408076e934a2b9e84, type: 3}

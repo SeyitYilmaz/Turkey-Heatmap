@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Sakarya
   m_EditorClassIdentifier: 
-  plateNo: 54
-  cityName: Sakarya
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 54
+    cityName: SAKARYA
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 3254936145691859918, guid: 2f1fc9c5206c58c4aae7eaf78752fdf3, type: 3}

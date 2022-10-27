@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Zonguldak
   m_EditorClassIdentifier: 
-  plateNo: 67
-  cityName: Zonguldak
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 67
+    cityName: ZONGULDAK
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 5110600260306193196, guid: e520e2f3741a9154da2805f11c7fc728, type: 3}

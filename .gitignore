@@ -63,7 +63,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
+/backend/node_modules
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 

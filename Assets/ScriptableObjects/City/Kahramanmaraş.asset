@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "Kahramanmara\u015F"
   m_EditorClassIdentifier: 
-  plateNo: 46
-  cityName: "Kahramanmara\u015F"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: KAHRAMANMARAS
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 8335119486352212856, guid: d07cf71a112c1704eb8c9c5fc2515ebd, type: 3}

@@ -11,9 +11,9 @@ public class City : MonoBehaviour
 
     void Start()
     {
-        plateNo = citySO.plateNo;
-        cityName = citySO.cityName;
-        heatValue = citySO.heatValue;
-        populationValue = citySO.populationValue;
+        plateNo = citySO.cityData.plateNo;
+        cityName = citySO.cityData.cityName;
+        heatValue = citySO.cityData.heatValue;
+        populationValue = citySO.cityData.populationValue;
     }
 }

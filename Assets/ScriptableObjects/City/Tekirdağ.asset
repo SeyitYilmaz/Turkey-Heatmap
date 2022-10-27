@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "Tekirda\u011F"
   m_EditorClassIdentifier: 
-  plateNo: 59
-  cityName: "Tekirda\u011F"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: TEKIRDAG
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 3644918013368912362, guid: 4875533e859ac1f48b5283615d4bfd21, type: 3}

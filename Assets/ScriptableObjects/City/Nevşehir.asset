@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "Nev\u015Fehir"
   m_EditorClassIdentifier: 
-  plateNo: 50
-  cityName: "Nev\u015Fehir"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: NEVSEHIR
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 1920855082279190332, guid: a38c9c78f465c9f41a0db616cd2d1131, type: 3}

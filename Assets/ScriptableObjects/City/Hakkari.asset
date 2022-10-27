@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Hakkari
   m_EditorClassIdentifier: 
-  plateNo: 30
-  cityName: Hakkari
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: HAKKARI
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 6716658498666558499, guid: 6461b66d6b67fdc4eb283cc24cac64f1, type: 3}

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Antalya
   m_EditorClassIdentifier: 
-  plateNo: 7
-  cityName: Antalya
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 7
+    cityName: ANTALYA
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 1453360880326471538, guid: d1af1570131159941809a2631edf5650, type: 3}

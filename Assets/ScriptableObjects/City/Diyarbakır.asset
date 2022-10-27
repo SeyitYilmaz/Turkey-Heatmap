@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "Diyarbak\u0131r"
   m_EditorClassIdentifier: 
-  plateNo: 21
-  cityName: "Diyarbak\u0131r"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: DIYARBAKIR
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 7539877971122546601, guid: 0b07b08346229cd478630f26a0e7f5b4, type: 3}

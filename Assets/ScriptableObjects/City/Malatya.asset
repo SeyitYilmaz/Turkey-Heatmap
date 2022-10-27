@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Malatya
   m_EditorClassIdentifier: 
-  plateNo: 44
-  cityName: Malatya
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 44
+    cityName: MALATYA
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 5383803251368117436, guid: c60b343708979114a96bd1c750cb5090, type: 3}

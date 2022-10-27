@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "Bing\xF6l"
   m_EditorClassIdentifier: 
-  plateNo: 12
-  cityName: "Bing\xF6l"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: BINGOL
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 4439499927571726931, guid: 50c5ace3356d09442853abdef1c18b52, type: 3}

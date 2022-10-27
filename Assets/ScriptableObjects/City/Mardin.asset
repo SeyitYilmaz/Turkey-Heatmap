@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Mardin
   m_EditorClassIdentifier: 
-  plateNo: 47
-  cityName: Mardin
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: MARDIN
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 1945749640781952613, guid: 54555d6921cff6141a3f013fe6e1dde9, type: 3}

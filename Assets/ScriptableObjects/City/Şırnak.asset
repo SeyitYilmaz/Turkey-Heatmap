@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "\u015E\u0131rnak"
   m_EditorClassIdentifier: 
-  plateNo: 73
-  cityName: "\u015E\u0131rnak"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: SIRNAK
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 7537314678813842980, guid: 816d78bc60d7c614995e38c993d50537, type: 3}

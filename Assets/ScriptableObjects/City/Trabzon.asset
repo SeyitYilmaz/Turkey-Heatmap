@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Trabzon
   m_EditorClassIdentifier: 
-  plateNo: 61
-  cityName: Trabzon
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 61
+    cityName: TRABZON
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 1349239865068976849, guid: c22ffe1cad6f7d74ab30f090e38bdad5, type: 3}

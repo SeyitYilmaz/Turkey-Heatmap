@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Ankara
   m_EditorClassIdentifier: 
-  plateNo: 6
-  cityName: Ankara
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 6
+    cityName: ANKARA
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 3779000483478667832, guid: 474588e356f29aa4f9148b9aa05d3d09, type: 3}

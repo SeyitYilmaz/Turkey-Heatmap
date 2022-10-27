@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "Elaz\u0131\u011F"
   m_EditorClassIdentifier: 
-  plateNo: 23
-  cityName: "Elaz\u0131\u011F"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: ELAZIG
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 2094425219176336251, guid: bb4592d3632eafc4284cd9f8c978e271, type: 3}

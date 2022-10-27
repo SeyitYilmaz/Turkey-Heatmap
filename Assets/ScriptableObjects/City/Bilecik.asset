@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: Bilecik
   m_EditorClassIdentifier: 
-  plateNo: 11
-  cityName: Bilecik
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: BILECIK
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 3865665782039433054, guid: 4c3619b6266d84f47933d54ea790f6bb, type: 3}

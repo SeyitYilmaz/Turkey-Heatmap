@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac07333330e4a448fe4a9fe8d6c710, type: 3}
   m_Name: "\u015Eanl\u0131urfa"
   m_EditorClassIdentifier: 
-  plateNo: 63
-  cityName: "\u015Eanl\u0131urfa"
-  heatValue: 0
-  populationValue: 0
+  cityData:
+    plateNo: 0
+    cityName: SANLIURFA
+    heatValue: 0
+    populationValue: 0
   cityPrefab: {fileID: 8807499166784318719, guid: 7acfebbb6479b074e8304ed2fb480538, type: 3}

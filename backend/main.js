@@ -43,8 +43,6 @@ server.get("/numberPlate/:cityName", async(request,response,next)=>{
                 }
             },
             { $unwind: "$heat-val"},
-
-            
             {
                 $project:{
                     _id : 1,

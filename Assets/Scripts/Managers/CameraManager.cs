@@ -27,7 +27,6 @@ public class CameraManager : MonoBehaviour
       {
           if( cameraIndex >= 0 && cameraIndex < cameras.Length )
           {
-            Debug.Log("SelectCamera");
             cameras[selectedCameraIndex].gameObject.SetActive(false);
             selectedCameraIndex = cameraIndex;
             cameras[selectedCameraIndex].gameObject.SetActive(true);

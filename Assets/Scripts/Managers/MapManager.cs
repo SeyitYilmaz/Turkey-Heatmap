@@ -24,10 +24,10 @@ public class MapManager : MonoBehaviour
         {
             GameObject cityObject = Instantiate<GameObject>(city.cityPrefab.transform.gameObject);
             StartCoroutine(DatabaseManager.instance.Download(city.cityData.cityName, result => {
-                Debug.Log(result);
-                city.cityData.heatValue = result.heatValue;
-                city.cityData.populationValue = result.populationValue;
-                city.cityData.plateNo = result.plateNo;
+                //Debug.Log(result);
+                //city.cityData.heatValue = result.heatValue;
+                //city.cityData.populationValue = result.populationValue;
+                //city.cityData.plateNo = result.plateNo;
             }));
             cityObject.transform.parent = gameObject.transform;
             cityObject.GetComponent<City>().citySO = city;

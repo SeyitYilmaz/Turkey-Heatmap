@@ -17,8 +17,8 @@ public class CityData : List<CityData>
         return JsonUtility.ToJson(this);
     }
 
-    public static CityData Parse(string json)
+    public static List<CityData> Parse(string json)
     {
-        return JsonUtility.FromJson<CityData>(json);
+        return JsonUtility.FromJson<List<CityData>>(json);
     }
 }

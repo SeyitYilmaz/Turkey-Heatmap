@@ -57,7 +57,7 @@ server.get("/numberPlate/:cityName", async(request,response,next)=>{
         collection2;
         //let result = await collection.findOne({"heatValue": request.params.heatValue});
         let result = await collection2.toArray();
-        response.send(result);
+        response.send(result[0]);
     } catch (e) {
         response.status(500).send({message: e.message});
     }

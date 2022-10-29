@@ -4,7 +4,7 @@ using UnityEngine;
 using Newtonsoft.Json;
 
 [System.Serializable]
-public class CityData : List<CityData>
+public class CityData
 {
     [JsonProperty("plateNumber")]public int plateNo;
     
@@ -17,8 +17,8 @@ public class CityData : List<CityData>
         return JsonUtility.ToJson(this);
     }
 
-    public static List<CityData> Parse(string json)
+    public static CityData Parse(string json)
     {
-        return JsonUtility.FromJson<List<CityData>>(json);
+        return JsonUtility.FromJson<CityData>(json);
     }
 }

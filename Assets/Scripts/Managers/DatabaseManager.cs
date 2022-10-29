@@ -41,7 +41,7 @@ public class DatabaseManager : MonoBehaviour
                 {
                     if (callback != null)
                     {
-                        Debug.Log(request.downloadHandler.text);
+                        //Debug.Log(request.downloadHandler.text);
                         callback.Invoke(JsonConvert.DeserializeObject<CityData>(request.downloadHandler.text));
                         //callback.Invoke(CityData.Parse((request.downloadHandler.text)));
                     }

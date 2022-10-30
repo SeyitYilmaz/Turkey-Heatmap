@@ -10,7 +10,7 @@ server.use(BodyParser.urlencoded({extended: true}));
 
 var collection;
 
-server.get("/numberPlate", async(request,response,next)=>{
+server.get("/plateNumber", async(request,response,next)=>{
     try {
         //let result = await collection.find({}).toArray();
         let result = await collection.toArray();
@@ -19,9 +19,9 @@ server.get("/numberPlate", async(request,response,next)=>{
         response.status(500).send({message: e.message});
     }
 });
-server.get("/numberPlate/:cityName", async(request,response,next)=>{
+server.get("/plateNumber/:cityName", async(request,response,next)=>{
     try {
-        let collection2 = client.db("TurkeyMap").collection("numberPlate").aggregate([
+        let collection2 = client.db("TurkeyMap").collection("plateNumber").aggregate([
             {
                 $match: {cityName: request.params.cityName}
             },
@@ -66,7 +66,7 @@ server.listen("3000", async()=>{
 
     try {
         await client.connect();
-        collection = client.db("TurkeyMap").collection("numberPlate").aggregate([
+        collection = client.db("TurkeyMap").collection("plateNumber").aggregate([
             {
                 $lookup:{
                     from: "populationValue",

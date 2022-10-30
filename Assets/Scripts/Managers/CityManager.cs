@@ -22,7 +22,6 @@ public class CityManager : MonoBehaviour
     public void SetSelectedCity(Transform selectedCity)
     {
         this.selectedCity = selectedCity;
-        Debug.Log(selectedCity);
     }
 
     public Transform GetSelectedCity()

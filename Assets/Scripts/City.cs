@@ -6,7 +6,7 @@ public class City : MonoBehaviour
 {   public CitySO citySO;
     public int plateNo;
     public string cityName;
-    public int heatValue;
+    public float heatValue;
     public int populationValue;
 
     void Start()

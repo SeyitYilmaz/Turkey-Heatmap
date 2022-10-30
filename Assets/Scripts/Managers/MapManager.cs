@@ -4,14 +4,22 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour
 {
+    public enum MapType
+    {
+        HeatMap,
+        PopulationMap
+    }
     public static MapManager instance {get;private set;}
     CityTypeListSO cityTypeList;
     //float popDifference = 15757255f;
     float maxPopLog = Mathf.Log(15840900)/Mathf.Log(8);
     float minPopLog = Mathf.Log(83645)/Mathf.Log(8);
     
-    //float popDifference = 3500000f;
-    //float minPopVal = 83645f;
+    float maxHeatVal = 4526.4f;
+    float minHeatVal = 3571.2f;
+
+    public List<GameObject> cities;
+    public MapType currentMapType = MapType.HeatMap;
     void Awake()
     {
         if (instance!=null)
@@ -24,7 +32,6 @@ public class MapManager : MonoBehaviour
 
     void Start() 
     {
-        float deltaPopLog = maxPopLog - minPopLog;
         cityTypeList = Resources.Load<CityTypeListSO>(typeof(CityTypeListSO).Name);
         foreach (var city in cityTypeList.cityList)
         {   
@@ -36,13 +43,32 @@ public class MapManager : MonoBehaviour
                 city.cityData.populationValue = result.populationValue;
                 city.cityData.plateNo = result.plateNo;
             }));
-            float deltaPop= ((float)((Mathf.Log(city.cityData.populationValue)/Mathf.Log(8))-minPopLog)/deltaPopLog);
+            cities.Add(cityObject);
+            ColorizeMap(currentMapType,cityObject);
+            //float deltaPop= ((float)((Mathf.Log(city.cityData.populationValue)/Mathf.Log(8))-minPopLog)/deltaPopLog);
             
-            float colorChanger = Random.Range(0,1f);
+            //float colorChanger = Random.Range(0,1f);
             //cityObject.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
             //cityObject.GetComponent<MeshRenderer>().material.color= new Color(2.0f * colorChanger, 2.0f * (1 - colorChanger), 0);
-            cityObject.GetComponent<MeshRenderer>().material.color= new Color(1.0f, 1f * (1f - deltaPop), 1f * (1.0f - deltaPop));
+            //cityObject.GetComponent<MeshRenderer>().material.color= new Color(1.0f, 1f * (1f - deltaPop), 1f * (1.0f - deltaPop));
             //cityObject.GetComponent<MeshRenderer>().material.color= new Color(1f * deltaPop, 1f * (1 - deltaPop), 0);
+        }
+    }
+
+    public void ColorizeMap(MapType mapType, GameObject city)
+    {
+        switch (mapType)
+        {
+            case MapType.HeatMap:
+                //float colorChanger = Random.Range(0,1f);
+                float deltaHeat = (city.GetComponent<City>().citySO.cityData.heatValue-minHeatVal)/(maxHeatVal - minHeatVal);
+                city.GetComponent<MeshRenderer>().material.color= new Color(2.0f * deltaHeat, 2.0f * (1 - deltaHeat), 0);
+            break;
+
+            case MapType.PopulationMap:
+                float deltaPop= ((float)((Mathf.Log(city.GetComponent<City>().citySO.cityData.populationValue)/Mathf.Log(8))-minPopLog)/(maxPopLog - minPopLog));
+                city.GetComponent<MeshRenderer>().material.color= new Color(1.0f, 1f * (1f - deltaPop), 1f * (1.0f - deltaPop));
+            break;
         }
     }
 }

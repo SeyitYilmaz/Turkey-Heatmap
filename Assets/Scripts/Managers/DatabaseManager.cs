@@ -25,7 +25,7 @@ public class DatabaseManager : MonoBehaviour
 
     public IEnumerator Download(string cityName, System.Action<CityData>callback = null)
         {
-            using (UnityWebRequest request = UnityWebRequest.Get("http://localhost:3000/numberPlate/" + cityName))
+            using (UnityWebRequest request = UnityWebRequest.Get("http://localhost:3000/plateNumber/" + cityName))
             {
                 yield return request.SendWebRequest();
 
@@ -41,9 +41,7 @@ public class DatabaseManager : MonoBehaviour
                 {
                     if (callback != null)
                     {
-                        //Debug.Log(request.downloadHandler.text);
                         callback.Invoke(JsonConvert.DeserializeObject<CityData>(request.downloadHandler.text));
-                        //callback.Invoke(CityData.Parse((request.downloadHandler.text)));
                     }
                 }
             }

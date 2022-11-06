@@ -10,11 +10,13 @@ public class PopulationMapButton : MonoBehaviour
     {
         gameObject.transform.GetComponent<Button>().onClick.AddListener(()=>{
             MapManager.instance.currentMapType = MapManager.MapType.PopulationMap;
+            FilterManager.instance.parameterText.SetText("Nüfus : ");
             MapTypeButtonManager.instance.SelectButton(1);
             foreach (var city in MapManager.instance.cities)
             {
                 MapManager.instance.ColorizeMap(MapManager.MapType.PopulationMap,city);
             }
+            CityManager.instance.EnableAllCities();
         });
     }
 

@@ -16,12 +16,6 @@ public class DatabaseManager : MonoBehaviour
         }
         instance = this;
     }
-    void Start() 
-    {
-        /*StartCoroutine(Download("ANKARA"_city.cityName, result => {
-            Debug.Log(result.cityName);
-        }));*/
-    }
 
     public IEnumerator Download(string cityName, System.Action<CityData>callback = null)
         {

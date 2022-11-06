@@ -45,13 +45,8 @@ public class MapManager : MonoBehaviour
             }));
             cities.Add(cityObject);
             ColorizeMap(currentMapType,cityObject);
-            //float deltaPop= ((float)((Mathf.Log(city.cityData.populationValue)/Mathf.Log(8))-minPopLog)/deltaPopLog);
-            
             //float colorChanger = Random.Range(0,1f);
             //cityObject.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
-            //cityObject.GetComponent<MeshRenderer>().material.color= new Color(2.0f * colorChanger, 2.0f * (1 - colorChanger), 0);
-            //cityObject.GetComponent<MeshRenderer>().material.color= new Color(1.0f, 1f * (1f - deltaPop), 1f * (1.0f - deltaPop));
-            //cityObject.GetComponent<MeshRenderer>().material.color= new Color(1f * deltaPop, 1f * (1 - deltaPop), 0);
         }
     }
 
@@ -60,7 +55,6 @@ public class MapManager : MonoBehaviour
         switch (mapType)
         {
             case MapType.HeatMap:
-                //float colorChanger = Random.Range(0,1f);
                 float deltaHeat = (city.GetComponent<City>().citySO.cityData.heatValue-minHeatVal)/(maxHeatVal - minHeatVal);
                 city.GetComponent<MeshRenderer>().material.color= new Color(2.0f * deltaHeat, 2.0f * (1 - deltaHeat), 0);
             break;

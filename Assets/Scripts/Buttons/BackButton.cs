@@ -10,6 +10,7 @@ public class BackButton : MonoBehaviour
         gameObject.transform.GetComponent<Button>().onClick.AddListener(()=>{
             UIManager.instance.SelectCanvas(0);
             CameraManager.instance.SelectCamera(0);
+            CityManager.instance.EnableAllCities();
         });
     }
 }

@@ -57,5 +57,20 @@ public class CityManager : MonoBehaviour
     {
         city.localPosition = new Vector3(city.position.x,city.position.y-0.2f,city.position.z+0.05f);
     }
+
+    public void DisableAllCities()
+    {
+        foreach (var city in MapManager.instance.cities)
+        {
+            city.SetActive(false);
+        }
+    }
+    public void EnableAllCities()
+    {
+        foreach (var city in MapManager.instance.cities)
+        {
+            city.SetActive(true);
+        }
+    }
     
 }

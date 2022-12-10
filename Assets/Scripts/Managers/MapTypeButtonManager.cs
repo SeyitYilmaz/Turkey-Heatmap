@@ -29,6 +29,17 @@ public class MapTypeButtonManager : MonoBehaviour
             mapTypeButtons[currentButtonID].gameObject.transform.Find("background").GetComponent<Outline>().enabled = false;
             currentButtonID = buttonIndex;
             mapTypeButtons[currentButtonID].gameObject.transform.Find("background").GetComponent<Outline>().enabled = true;
+            MapColorInfoManager.instance.SetGradientTexture(buttonIndex);
+            if(MapManager.instance.currentMapType == MapManager.MapType.HeatMap)
+            {
+                MapColorInfoManager.instance.SetStartText(MapManager.instance.maxHeatVal.ToString());
+                MapColorInfoManager.instance.SetEndText(MapManager.instance.minHeatVal.ToString());
+            }
+            else
+            {
+                MapColorInfoManager.instance.SetStartText(MapManager.instance.maxPopValue.ToString());
+                MapColorInfoManager.instance.SetEndText(MapManager.instance.minPopValue.ToString());
+            }
           }
       }
 

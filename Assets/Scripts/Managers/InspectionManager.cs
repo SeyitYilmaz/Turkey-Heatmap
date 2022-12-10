@@ -6,7 +6,7 @@ using TMPro;
 public class InspectionManager : MonoBehaviour
 {
     [SerializeField] Transform cityPrefabLocation;
-    [SerializeField] Transform parentObject;
+    //[SerializeField] Transform parentObject;
     [SerializeField] TextMeshProUGUI cityNameText;
     [SerializeField] TextMeshProUGUI cityPlateNumText;
     [SerializeField] TextMeshProUGUI cityHeatValueText;
@@ -24,7 +24,6 @@ public class InspectionManager : MonoBehaviour
         cityPlateNumText.text = "Plaka No: "+selectedCity.cityData.plateNo.ToString();
         cityHeatValueText.text = "Sıcaklık Değeri: "+selectedCity.cityData.heatValue.ToString();
         cityPopValText.text = "Nüfus: "+selectedCity.cityData.populationValue.ToString();
-
     }
     void OnDisable() 
     {

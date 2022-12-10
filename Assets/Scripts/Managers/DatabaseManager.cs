@@ -18,26 +18,26 @@ public class DatabaseManager : MonoBehaviour
     }
 
     public IEnumerator Download(string cityName, System.Action<CityData>callback = null)
+    {
+        using (UnityWebRequest request = UnityWebRequest.Get("http://localhost:3000/plateNumber/" + cityName))
         {
-            using (UnityWebRequest request = UnityWebRequest.Get("http://localhost:3000/plateNumber/" + cityName))
-            {
-                yield return request.SendWebRequest();
+            yield return request.SendWebRequest();
 
-                if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
+            if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
+            {
+                Debug.Log(request.error);
+                if (callback != null)
                 {
-                    Debug.Log(request.error);
-                    if (callback != null)
-                    {
-                        callback.Invoke(null);
-                    }
+                    callback.Invoke(null);
                 }
-                else
+            }
+            else
+            {
+                if (callback != null)
                 {
-                    if (callback != null)
-                    {
-                        callback.Invoke(JsonConvert.DeserializeObject<CityData>(request.downloadHandler.text));
-                    }
+                    callback.Invoke(JsonConvert.DeserializeObject<CityData>(request.downloadHandler.text));
                 }
             }
         }
+    }
 }

@@ -15,8 +15,10 @@ public class MapManager : MonoBehaviour
     float maxPopLog = Mathf.Log(15840900)/Mathf.Log(8);
     float minPopLog = Mathf.Log(83645)/Mathf.Log(8);
     
-    float maxHeatVal = 4526.4f;
-    float minHeatVal = 3571.2f;
+    public float maxHeatVal = 4526.4f;
+    public float minHeatVal = 3571.2f;
+    public int maxPopValue = 15840900;
+    public int minPopValue = 83645;
 
     public List<GameObject> cities;
     public MapType currentMapType = MapType.HeatMap;

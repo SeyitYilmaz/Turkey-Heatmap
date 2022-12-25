@@ -2604,6 +2604,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filterCanvas: {fileID: 1463341191}
+--- !u!1 &751758350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 751758352}
+  - component: {fileID: 751758351}
+  m_Layer: 0
+  m_Name: MapColorInfoManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &751758351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751758350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861b4232645ffef469d2bf55a7d344a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: 7d988ad1632448d4c9b7f01fa7c91582, type: 3}
+  - {fileID: 2800000, guid: 021d8aa32f908e0469ae7e569e5981bc, type: 3}
+  startValueText: {fileID: 1587959195}
+  endValueText: {fileID: 873302560}
+  gradientImage: {fileID: 1214443640}
+--- !u!4 &751758352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751758350}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &765549851
 GameObject:
   m_ObjectHideFlags: 0
@@ -3105,7 +3155,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: end
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4419,7 +4469,7 @@ RectTransform:
   m_Children:
   - {fileID: 547101426}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4835,7 +4885,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5247,7 +5297,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cityPrefabLocation: {fileID: 2101169127}
-  parentObject: {fileID: 0}
   cityNameText: {fileID: 161572919}
   cityPlateNumText: {fileID: 730308583}
   cityHeatValueText: {fileID: 2041814861}
@@ -6093,6 +6142,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9eaf7310c633224cbff26a7bb96dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHeatVal: 4526.4
+  minHeatVal: 3571.2
+  maxPopValue: 15840900
+  minPopValue: 83645
   cities: []
   currentMapType: 0
 --- !u!4 &1948666249

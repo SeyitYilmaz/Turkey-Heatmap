@@ -3,8 +3,7 @@ const Express = require("express");
 const BodyParser = require('body-parser');
 
 const server = Express();
-const client = new MongoClient("mongodb+srv://seyit:tmap123@turharita.nu7eczs.mongodb.net/test");
-
+const client = db.client;
 server.use(BodyParser.json());
 server.use(BodyParser.urlencoded({extended: true}));
 

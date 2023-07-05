@@ -1,6 +1,5 @@
 # Turkey-Heatmap
 ## Description
-Introducing our innovative project: a dynamic Turkey map visualization system. 
 Utilizing Blender, Unity, and MongoDB Atlas, we've created an immersive experience. 
 Explore Turkey's diverse regions with our meticulously modeled map, seamlessly integrated into Unity. 
 Data from MongoDB Atlas enriches the map, providing real-time insights through colored regions.
